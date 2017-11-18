@@ -3,7 +3,7 @@
     <b-row align-h="center">
       <b-col cols="8">
         <b-card 
-          class="mt-3"
+          class="mt-3 mb-3"
           header="Contact Page"
           align="center"
           border-variant="secondary"
