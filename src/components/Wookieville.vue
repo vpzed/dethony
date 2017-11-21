@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import { generalMenus, acctStatMenus } from '@/store/testMenus'
+import { generalMenus, acctStatMenus } from '@/store/menus'
 
 export default {
   name: 'Wookieville',
