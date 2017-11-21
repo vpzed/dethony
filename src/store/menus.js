@@ -2,6 +2,7 @@
 
 export const generalMenus = {
   allianceOptions: [
+    { text: 'Select an option', value: null },
     { text: 'Wookieville', value: '2' },
     { text: 'Dome Busters', value: '1' }
   ]
@@ -9,6 +10,7 @@ export const generalMenus = {
 
 export const acctStatMenus = {
   activityModeOptions: [
+    { text: 'Select an option', value: null },
     { text: 'All PvE', value: 'allPvE' },
     { text: 'Story', value: 'story' },
     { text: 'Patrol', value: 'patrol' },
@@ -25,6 +27,7 @@ export const acctStatMenus = {
     { text: 'Iron Banner', value: 'ironBanner' }
   ],
   pveActivityModeOptions: [
+    { text: 'Select an option', value: null },
     { text: 'All PvE', value: 'allPvE' },
     { text: 'Story', value: 'story' },
     { text: 'Patrol', value: 'patrol' },
@@ -33,6 +36,7 @@ export const acctStatMenus = {
     { text: 'Raid', value: 'raid' }
   ],
   pvpActivityModeOptions: [
+    { text: 'Select an option', value: null },
     { text: 'All Crucible', value: 'allPvP' },
     { text: 'Control', value: 'control' },
     { text: 'Clash', value: 'clash' },
@@ -43,6 +47,7 @@ export const acctStatMenus = {
     { text: 'Iron Banner', value: 'ironBanner' }
   ],
   pveStatIdOptions: [
+    { text: 'Select an option', value: null },
     { text: 'Kills', value: 'kills' },
     { text: 'Precision Kills', value: 'precisionKills' },
     { text: 'Assists', value: 'assists' },
@@ -112,6 +117,7 @@ export const acctStatMenus = {
     { text: 'Sword Kills', value: 'weaponKillsSword' }
   ],
   pvpStatIdOptions: [
+    { text: 'Select an option', value: null },
     { text: 'Activities Entered', value: 'activitiesEntered' },
     { text: 'Activities Won', value: 'activitiesWon' },
     { text: 'Win/Loss Ratio', value: 'winLossRatio' },
@@ -188,6 +194,7 @@ export const acctStatMenus = {
     { text: 'Sword Kills', value: 'weaponKillsSword' }
   ],
   medalStatIdOptions: [
+    { text: 'Select an option', value: null },
     { text: 'All Medals Earned', value: 'allMedalsEarned' },
     { text: 'Medal Dawnblade Aerial*', value: 'medalAbilityDawnbladeAerial' },
     { text: 'Medal Dawnblade Slam*', value: 'medalAbilityDawnbladeSlam' },
@@ -271,6 +278,7 @@ export const acctStatMenus = {
     { text: 'Regent', value: 'medalWeaponSword' }
   ],
   statIdOptions: [
+    { text: 'Select an option', value: null },
     { text: 'Activities Cleared', value: 'activitiesCleared' },
     { text: 'Activities Entered', value: 'activitiesEntered' },
     { text: 'Activities Won', value: 'activitiesWon' },
