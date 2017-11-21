@@ -27,7 +27,13 @@ const actions = {
 
 const getters = {
   acctStats: state => {
-    return state.data
+    return state.data.map((data, index) => {
+      return {
+        rank: index + 1,
+        display_name: data.display_name,
+        stat_value: data.basic_display_value
+      }
+    })
   }
 }
 

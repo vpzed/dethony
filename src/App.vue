@@ -6,16 +6,11 @@
     <main>
       <router-view/>
     </main>
-    <!-- footer class set in main.scss -->
-    <footer class="footer">
-      <footer-z/>
-    </footer>
   </div>
 </template>
 
 <script>
 import Toolbar from '@/components/ToolBar'
-import Footer from '@/components/Footer'
 export default {
   name: 'app',
   data () {
@@ -24,8 +19,7 @@ export default {
     }
   },
   components: {
-    ToolbarZ: Toolbar,
-    FooterZ: Footer
+    ToolbarZ: Toolbar
   }
 }
 </script>

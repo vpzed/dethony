@@ -1,18 +1,22 @@
 <template>
   <b-container>
     <b-row align-h="center">
-      <b-col md="8">
+      <b-col cols="8">
         <b-tabs>
           <b-tab title="Account Stats - PvE">
             <b-row align-h="center">
               <b-col>
+                <div class="mt-3">
+                  <p>Select Alliance/Clan</p>
+                  <b-form-select v-model="allianceSelected" :options="allianceOptions"></b-form-select>
+                </div>
                 <b-row>
-                  <b-col cols="6">
+                  <b-col>
                     <div class="mt-3">
-                      <p>Select Activity</p>
+                      <p>Select Activity Mode</p>
                       <b-form-select v-model="pveActivityModeSelected" :options="pveActivityModeOptions"></b-form-select>
                     </div>
-                  </b-col cols="6">
+                  </b-col>
                   <b-col>
                     <div class="mt-3">
                       <p>Select Statistic</p>
@@ -36,14 +40,18 @@
           <b-tab title="Account Stats - PvP">
             <b-row align-h="center">
               <b-col>
+                <div class="mt-3">
+                  <p>Select Alliance/Clan</p>
+                  <b-form-select v-model="allianceSelected" :options="allianceOptions"></b-form-select>
+                </div>
                 <b-row>
-                  <b-col cols="6">
+                  <b-col>
                     <div class="mt-3">
-                      <p>Select Activity</p>
+                      <p>Select Activity Mode</p>
                       <b-form-select v-model="pvpActivityModeSelected" :options="pvpActivityModeOptions"></b-form-select>
                     </div>
                   </b-col>
-                  <b-col cols="6">
+                  <b-col>
                     <div class="mt-3">
                       <p>Select Statistic</p>
                       <b-form-select v-model="pvpStatIdSelected" :options="pvpStatIdOptions"></b-form-select>
@@ -66,14 +74,18 @@
           <b-tab title="Account Stats - Medals">
             <b-row align-h="center">
               <b-col>
+                <div class="mt-3">
+                  <p>Select Alliance/Clan</p>
+                  <b-form-select v-model="allianceSelected" :options="allianceOptions"></b-form-select>
+                </div>
                 <b-row>
-                  <b-col cols="6">
+                  <b-col>
                     <div class="mt-3">
-                      <p>Select Activity</p>
+                      <p>Select Activity Mode</p>
                       <b-form-select v-model="pvpActivityModeSelected" :options="pvpActivityModeOptions"></b-form-select>
                     </div>
                   </b-col>
-                  <b-col cols="6">
+                  <b-col>
                     <div class="mt-3">
                       <p>Select Statistic</p>
                       <b-form-select v-model="medalStatIdSelected" :options="medalStatIdOptions"></b-form-select>
@@ -103,28 +115,28 @@
 import { generalMenus, acctStatMenus } from '@/store/testMenus'
 
 export default {
-  name: 'Wookieville',
+  name: 'LeaderBoards',
   computed: {
     acctStats () {
       return this.$store.getters.acctStats
     },
     pveSelectedParams () {
       return {
-        allianceId: 2,
+        allianceId: this.allianceSelected,
         activityMode: this.pveActivityModeSelected,
         statId: this.pveStatIdSelected
       }
     },
     pvpSelectedParams () {
       return {
-        allianceId: 2,
+        allianceId: this.allianceSelected,
         activityMode: this.pvpActivityModeSelected,
         statId: this.pvpStatIdSelected
       }
     },
     medalSelectedParams () {
       return {
-        allianceId: 2,
+        allianceId: this.allianceSelected,
         activityMode: this.pvpActivityModeSelected,
         statId: this.medalStatIdSelected
       }

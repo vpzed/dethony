@@ -25,7 +25,6 @@
               src="/static/2080464.jpg"
               alt="Wookieville">
             </b-card-img>
-            <b-button class="mt-3" to="wookieville" variant="primary">Wookieville Stats</b-button>
           </b-card>
           <b-card 
             header="Guardians of the Last Dew"
@@ -36,7 +35,6 @@
               src="/static/966689.jpg"
               alt="Guardians of the Last Dew">
             </b-card-img>
-            <b-button class="mt-3" to="comingsoon" variant="primary">DEW Stats</b-button>
           </b-card>
           <b-card 
             header="Dome Busters"
@@ -47,7 +45,6 @@
               src="/static/804941.jpg"
               alt="Dome Busters">
             </b-card-img>
-            <b-button class="mt-3" to="comingsoon" variant="primary">Dome Busters Stats</b-button>
           </b-card>
         </b-card-group>
       </b-col>

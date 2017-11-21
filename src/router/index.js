@@ -6,6 +6,7 @@ import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Wookieville from '@/components/Wookieville'
 import ComingSoon from '@/components/ComingSoon'
+import LeaderBoards from '@/components/LeaderBoards'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/comingsoon',
       name: 'comingsoon',
       component: ComingSoon
+    },
+    {
+      path: '/leaderboards',
+      name: 'leaderboards',
+      component: LeaderBoards
     },
     { path: '*', redirect: '/' }
   ]
