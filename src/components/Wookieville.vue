@@ -3,7 +3,7 @@
     <b-row align-h="center">
       <b-col md="8">
         <h2 class="text-center text-warning mt-3">Wookieville</h2>
-        <b-tabs v-model="tabIndex" pills>
+        <b-tabs v-model="tabIndex" pills class="nav-justified">
           <b-tab title="Account Stats - PvE" :title-link-class="linkClass(0)">
             <b-row align-h="center">
               <b-col>
@@ -111,21 +111,21 @@ export default {
     },
     pveSelectedParams () {
       return {
-        allianceId: 2,
+        allianceId: 10,
         activityMode: this.pveActivityModeSelected,
         statId: this.pveStatIdSelected
       }
     },
     pvpSelectedParams () {
       return {
-        allianceId: 2,
+        allianceId: 10,
         activityMode: this.pvpActivityModeSelected,
         statId: this.pvpStatIdSelected
       }
     },
     medalSelectedParams () {
       return {
-        allianceId: 2,
+        allianceId: 10,
         activityMode: this.pvpActivityModeSelected,
         statId: this.medalStatIdSelected
       }
@@ -175,6 +175,6 @@ export default {
 */
 </script>
 
-<style>
+<style scoped>
 
 </style>

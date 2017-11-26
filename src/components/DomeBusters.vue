@@ -111,21 +111,21 @@ export default {
     },
     pveSelectedParams () {
       return {
-        allianceId: 1,
+        allianceId: 7,
         activityMode: this.pveActivityModeSelected,
         statId: this.pveStatIdSelected
       }
     },
     pvpSelectedParams () {
       return {
-        allianceId: 1,
+        allianceId: 7,
         activityMode: this.pvpActivityModeSelected,
         statId: this.pvpStatIdSelected
       }
     },
     medalSelectedParams () {
       return {
-        allianceId: 1,
+        allianceId: 7,
         activityMode: this.pvpActivityModeSelected,
         statId: this.medalStatIdSelected
       }

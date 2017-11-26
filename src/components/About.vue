@@ -9,8 +9,7 @@
             and maybe some healthy competition.<br/><br/>
             Due to the volume of data collected the stats will always be based on historical data 
             with the goal being an update at least once per day.  The collection process retrieves millions
-            of data points so it's quite a task to update.
-          </p>
+            of data points so it's quite a task to update.<br/><br/>
             This is a fan site and is not affiliated with Bungie.</p>
         </div>
       </b-col>
@@ -29,6 +28,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
