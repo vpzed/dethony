@@ -6,9 +6,10 @@
       <b-navbar-nav>
         <b-nav-item to="about">About</b-nav-item>
         <b-nav-item-dropdown text="Clans" right>
-          <b-dropdown-item to="wookieville">Wookieville</b-dropdown-item>
-          <b-dropdown-item to="comingsoon">Guardians of the Last Dew</b-dropdown-item>
           <b-dropdown-item to="domebusters">Dome Busters</b-dropdown-item>
+          <b-dropdown-item to="guarddew">Guardians of the Last Dew</b-dropdown-item>
+          <b-dropdown-item to="saltempire">Salt Empire</b-dropdown-item>
+          <b-dropdown-item to="wookieville">Wookieville</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto">

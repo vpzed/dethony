@@ -3,9 +3,10 @@ import Router from 'vue-router'
 
 import Home from '@/components/Home'
 import About from '@/components/About'
-import Wookieville from '@/components/Wookieville'
 import DomeBusters from '@/components/DomeBusters'
-import ComingSoon from '@/components/ComingSoon'
+import GuardDew from '@/components/GuardDew'
+import SaltEmpire from '@/components/SaltEmpire'
+import Wookieville from '@/components/Wookieville'
 
 Vue.use(Router)
 
@@ -32,9 +33,14 @@ export default new Router({
       component: DomeBusters
     },
     {
-      path: '/comingsoon',
-      name: 'comingsoon',
-      component: ComingSoon
+      path: '/guarddew',
+      name: 'guarddew',
+      component: GuardDew
+    },
+    {
+      path: '/saltempire',
+      name: 'saltempire',
+      component: SaltEmpire
     },
     { path: '*', redirect: '/' }
   ]
