@@ -163,16 +163,6 @@ export default {
     }
   }
 }
-
-/*
-  Account Stats query variables:
-  select=display_name,basic_display_value,activity_mode,stat_id
-  alliance_id=eq.2
-  activity_mode=eq.trialsofthenine
-  stat_id=eq.winLossRatio
-  order=basic_value.desc
-  limit=10
-*/
 </script>
 
 <style scoped>

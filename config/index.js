@@ -11,7 +11,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      // proxy all requests starting with /api to jsonplaceholder
+      // proxy all requests starting with /api to dev API
       '/api': {
         target: 'http://192.168.1.4:3000',
         changeOrigin: true,

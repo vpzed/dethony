@@ -1,10 +1,10 @@
 <template>
-  <div id="app">
+  <div>
     <header>
-      <toolbar-z/>
+      <toolbar-z></toolbar-z>
     </header>
     <main>
-      <router-view/>
+      <router-view></router-view>
     </main>
   </div>
 </template>
